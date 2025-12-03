@@ -1,7 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  devIndicators: {
+    buildActivity: false,
+    // @ts-ignore
+    appIsrStatus: false,
+  },
 };
 
 export default nextConfig;
