@@ -1,6 +1,6 @@
 // test-gemini.js
 // 1. Paste your "AIzaSy..." key inside the quotes below:
-const API_KEY = "AIzaSyCFdsHub-CDDxQNU5__5vBAzbNd2Doj98s"; 
+const API_KEY = ""; 
 
 async function testGemini() {
   console.log("Testing Gemini Key...");
